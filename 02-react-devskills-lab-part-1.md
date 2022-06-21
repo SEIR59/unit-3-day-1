@@ -2,7 +2,8 @@
 
 # React Dev Skills Lab - Part 1
 
-### https://codesandbox.io/s/react-dev-skills-part-1-hxwitd
+### link to part 1
+https://codesandbox.io/s/react-dev-skills-part-1-hxwitd
 
 ## Intro
 
