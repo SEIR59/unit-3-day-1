@@ -2,10 +2,10 @@
 
 # React Dev Skills Lab - Part 1
 
-Deliverable Part 1 Link: https://codesandbox.io/s/react-dev-skills-part-1-forked-1y3lms?file=/src/NewSkillForm.jsx
+Deliverable Part 1 Link: https://codesandbox.io/s/react-dev-skills-part-1-khvfd1
 <br>
 
-Deliverable Part 2 Link: https://codesandbox.io/s/react-dev-skills-part-2-1y3lms?file=/src/App.js
+Deliverable Part 2 Link: https://codesandbox.io/s/react-dev-skills-part-2-1y3lms
 
 ## Intro
 
