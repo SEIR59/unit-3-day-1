@@ -3,7 +3,8 @@
 
 
 # Link to my codesandbox
-https://codesandbox.io/s/react-dev-skills-qjpejr?file=/src/App.js
+Part 1: https://codesandbox.io/s/react-dev-skills-qjpejr?file=/src/App.js
+Part 2: https://codesandbox.io/s/react-dev-skills-qjpejr?file=/src/App.js
 
 # Intro to React & Components
 
