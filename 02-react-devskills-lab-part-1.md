@@ -2,6 +2,11 @@
 
 # React Dev Skills Lab - Part 1
 
+Deliverable Part 1 Link: https://codesandbox.io/s/react-dev-skills-part-1-khvfd1
+<br>
+
+Deliverable Part 2 Link: https://codesandbox.io/s/react-dev-skills-part-2-1y3lms
+
 ## Intro
 
 Now that you've learned a bit about components in React, let's practice defining and rendering a few more.
