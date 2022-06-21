@@ -2,15 +2,17 @@
 
 # Intro to React & Components
 
+## https://codesandbox.io/s/react-dev-skills-ieiyyc
+
 ## Learning Objectives
 
-|Students Will Be Able To:|
-|---|
-| Explain the Use Case of React |
-| Explain What Components Are |
+| Students Will Be Able To:                  |
+| ------------------------------------------ |
+| Explain the Use Case of React              |
+| Explain What Components Are                |
 | Explain How React Renders a User Interface |
-| Compose a UI Using Components |
-| Use React DevTools |
+| Compose a UI Using Components              |
+| Use React DevTools                         |
 
 ## Road Map
 
@@ -22,7 +24,7 @@
 - Designing User Interfaces Using Components
 - Let's Define a Component
 - Practice Exercise: Define Another Component
-- Install and Open React Developer Tools 
+- Install and Open React Developer Tools
 - References
 
 ## What is React?
@@ -58,9 +60,9 @@ The following command will create a skeleton React app within a new directory:
 npx create-react-app <app name>
 ```
 
-> Note that `npx` is a "package runner" and comes with `npm` versions 5.2.0 and later and is now the recommended approach to running `create-react-app`.  Be aware that you will find many React tutorials that show installing and running `create-react-app` without using `npx`. 
+> Note that `npx` is a "package runner" and comes with `npm` versions 5.2.0 and later and is now the recommended approach to running `create-react-app`. Be aware that you will find many React tutorials that show installing and running `create-react-app` without using `npx`.
 
-However, before you start creating React app after React app, note that each one consumes approximately 270MB of disk space!  This is due to the sheer number of Node modules a React project requires thanks to its build tools, development server, etc.
+However, before you start creating React app after React app, note that each one consumes approximately 270MB of disk space! This is due to the sheer number of Node modules a React project requires thanks to its build tools, development server, etc.
 
 Although using `npx create-react-app <app name>` (CRA) is the best way to start an actual React project, we can save our disk space when learning and experimenting by using the most excellent code playground, [CodeSandbox](https://codesandbox.io/)...
 
@@ -97,9 +99,9 @@ Well, that's not HTML, it's JSX! JSX is fundamental to React and we'll cover it 
 
 Let's start a list of React Fundamentals that we can add to as the lessons unfold...
 
-| React Fundamental | Summary |
-|---|---|
-| [React](https://reactjs.org/) | <ul><li>A JS library for building dynamic UIs</li></ul> |
+| React Fundamental                                    | Summary                                                                                                           |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [React](https://reactjs.org/)                        | <ul><li>A JS library for building dynamic UIs</li></ul>                                                           |
 | [JSX](https://reactjs.org/docs/introducing-jsx.html) | <ul><li>A syntax extension to JS that looks like HTML and makes defining UIs more intuitive vs. pure JS</li></ul> |
 
 Let's make some changes by editing the JSX as follows:
@@ -118,7 +120,7 @@ Let's make some changes by editing the JSX as follows:
 
 CodeSandbox's starting React app uses modern JavaScript.
 
-For example, note the use of `import` at the top of **index.js**.  Similar to how we used `require` in Node, `import` allows us to access the functionality that is exported by other JavaScript files (modules).
+For example, note the use of `import` at the top of **index.js**. Similar to how we used `require` in Node, `import` allows us to access the functionality that is exported by other JavaScript files (modules).
 
 [JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) were introduced with ES2015 and they're really cool. However, you're probably wondering if they're so cool, why haven't we used them yet. The answer is that their use requires tooling known as a "module bundler", the most popular being [webpack](https://webpack.github.io/), used by React projects created using CRA.
 
@@ -163,7 +165,7 @@ export default function App() {
 
 > IMPORTANT: User-defined components must be named using UpperCamelCasing.
 
-A component may be defined using a JS function or class.  Since the introduction of "React hooks" a couple of years ago, the trend has been to code components exclusively with functions.
+A component may be defined using a JS function or class. Since the introduction of "React hooks" a couple of years ago, the trend has been to code components exclusively with functions.
 
 Our user-defined components commonly render other user-defined components and/or React's built-in components...
 
@@ -212,30 +214,30 @@ Instead, React:
 1. Renders all React Element components into a [Virtual DOM](https://reactjs.org/docs/faq-internals.html#gatsby-focus-wrapper).
 2. After all components have been rendered, React compares the current Virtual DOM to the previous Virtual DOM and computes what is called the "diff".
 3. React uses the "diff" to make only the necessary changes to the actual DOM in the browser.
-  <img src="https://i.imgur.com/LC7wclE.jpg">
+   <img src="https://i.imgur.com/LC7wclE.jpg">
 
 Time to add to our React Fundamentals chart...
 
-| React Fundamental | Summary |
-|---|---|
-| ... | ... |
-| Components  | <ul><li>A user interface is defined by a hierarchy of components</li></ul>|
-| User-Defined Component | <ul><li>May be defined as a function or class but must be named using UpperCamelCasing</li><li>May hold and manage application state</li><li>May contain or utilize application logic such as fetching data, implementing the win/loss logic of a game, etc.</li></ul> |
-| React Elements | <ul><li>React's built-in components, such as `<div>`, that render their corresponding HTML element into the DOM</li><li>Are always named using lowercase</li></ul> |
-| [`ReactDOM.render()`](https://reactjs.org/docs/react-dom.html#render) method | <ul><li>Renders the React app's top-level component for the first time when the app's JS is loaded in the browser</li></ul> |
-| When a Component's State is Updated | <ul><li>The component is re-rendered</li><li>All children components are also rendered, and so on until there are no more components to render</li></ul> |
+| React Fundamental                                                            | Summary                                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ...                                                                          | ...                                                                                                                                                                                                                                                                    |
+| Components                                                                   | <ul><li>A user interface is defined by a hierarchy of components</li></ul>                                                                                                                                                                                             |
+| User-Defined Component                                                       | <ul><li>May be defined as a function or class but must be named using UpperCamelCasing</li><li>May hold and manage application state</li><li>May contain or utilize application logic such as fetching data, implementing the win/loss logic of a game, etc.</li></ul> |
+| React Elements                                                               | <ul><li>React's built-in components, such as `<div>`, that render their corresponding HTML element into the DOM</li><li>Are always named using lowercase</li></ul>                                                                                                     |
+| [`ReactDOM.render()`](https://reactjs.org/docs/react-dom.html#render) method | <ul><li>Renders the React app's top-level component for the first time when the app's JS is loaded in the browser</li></ul>                                                                                                                                            |
+| When a Component's State is Updated                                          | <ul><li>The component is re-rendered</li><li>All children components are also rendered, and so on until there are no more components to render</li></ul>                                                                                                               |
 
 ### ❓ Review Questions - Components
 
-1. **True or False:  User-defined components must be named in lowercase.**
+1. **True or False: User-defined components must be named in lowercase.**
 
-2. **True or False:  A Function Component is a component that is written as a JS function and returns its user interface as JSX.**
+2. **True or False: A Function Component is a component that is written as a JS function and returns its user interface as JSX.**
 
-3. **True or False:  When a component is rendered, all of its children are also rendered.**
+3. **True or False: When a component is rendered, all of its children are also rendered.**
 
-4. **After a React app is rendered for the first time by the `ReactDOM.render()` method, components re-render when ________ is updated.**
+4. **After a React app is rendered for the first time by the `ReactDOM.render()` method, components re-render when **\_\_\_\_** is updated.**
 
-5. **True or False:  If a React app consisted of only user-defined components, no HTML elements would be emitted to the browser's DOM.**
+5. **True or False: If a React app consisted of only user-defined components, no HTML elements would be emitted to the browser's DOM.**
 
 ## Designing User Interfaces Using Components
 
@@ -272,7 +274,7 @@ Modules should be named the same as the component, i.e., using UpperCamelCasing.
 Prior to React version 17+, we used to have to import React at the top of every component module like this:
 
 ```js
-import React from 'react';
+import React from "react";
 ```
 
 However, this is no longer required and is being mentioned here because there's a lot of projects out there pre-version 17.
@@ -282,22 +284,18 @@ However, this is no longer required and is being mentioned here because there's 
 Let's stub up `<ToDoList>` as follows:
 
 ```jsx
-export default function ToDoList() {
-
-}
+export default function ToDoList() {}
 ```
 
 Note that you may also see components exported using another line of code like this:
 
 ```jsx
-function ToDoList() {
-
-}
+function ToDoList() {}
 
 export default ToDoList;
 ```
 
-Cool.  So ultimately, a Function Component must return its UI (JSX).
+Cool. So ultimately, a Function Component must return its UI (JSX).
 
 As planned, let's move the `<ul>` and its contents from **App.js** to our new component and `return` it:
 
@@ -313,7 +311,7 @@ export default function ToDoList() {
 }
 ```
 
-> Tip:  Saving the file (`command + s`) in the sandbox will auto-format the code.
+> Tip: Saving the file (`command + s`) in the sandbox will auto-format the code.
 
 ### Update `<App>` to Render the `<ToDoList>` Component
 
@@ -351,7 +349,7 @@ This is what you will see when finished:
 
 <img src="https://i.imgur.com/2WIctBO.png">
 
-## Install and Open React Developer Tools 
+## Install and Open React Developer Tools
 
 You may have noticed that CodeSandbox has a **React DevTools** tab used to troubleshoot components.
 
