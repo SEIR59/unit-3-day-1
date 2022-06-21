@@ -2,6 +2,9 @@
 
 # React Dev Skills Lab - Part 1
 
+### link to part 1
+https://codesandbox.io/s/react-dev-skills-part-1-hxwitd
+
 ## Intro
 
 Now that you've learned a bit about components in React, let's practice defining and rendering a few more.

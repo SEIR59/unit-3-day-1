@@ -2,6 +2,9 @@
 
 # React Dev Skills Lab - Part 2
 
+### link to part-2
+https://codesandbox.io/s/react-dev-skills-hxwitd?file=/src/App.js
+
 ## Intro
 
 Now that you know quite a bit about JSX, props and how to style React Elements, time to apply your new knowledge by continuing to build the React Dev Skills app.
