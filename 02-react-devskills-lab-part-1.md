@@ -2,6 +2,12 @@
 
 # React Dev Skills Lab - Part 1
 
+https://codesandbox.io/s/react-dev-skills-part-1-btse1n?file=/src/App.js
+
+# React Dev Skills Lab - Part 2
+https://codesandbox.io/s/react-dev-skills-part-2-btse1n?file=/src/App.js
+
+
 ## Intro
 
 Now that you've learned a bit about components in React, let's practice defining and rendering a few more.
