@@ -4,7 +4,6 @@
 
 https://codesandbox.io/s/react-dev-skills-g4som1
 
-
 ## Intro
 
 Now that you've learned a bit about components in React, let's practice defining and rendering a few more.
