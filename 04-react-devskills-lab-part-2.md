@@ -1,5 +1,7 @@
 <img src="https://i.imgur.com/pg98OTd.png">
 
+# Link to answer: https://codesandbox.io/s/mystifying-brattain-15u3x4
+
 # React Dev Skills Lab - Part 2
 
 ## Intro
@@ -14,23 +16,22 @@ Now that you know quite a bit about JSX, props and how to style React Elements, 
 
 2. Add a `skills` array like the following above `<App>`:
 
-    ```jsx
-    const skills = [
-      { name: "HTML", level: 5 },
-      { name: "CSS", level: 3 },
-      { name: "JavaScript", level: 4 },
-      { name: "Python", level: 2 },
-    ];
+   ```jsx
+   const skills = [
+     { name: "HTML", level: 5 },
+     { name: "CSS", level: 3 },
+     { name: "JavaScript", level: 4 },
+     { name: "Python", level: 2 },
+   ];
 
-    export default function App() {
-    ```
+   export default function App() {
+   ```
 
 3. Refactor the code so that the renders the "skill" objects similar to the following:
 
-    <img src="https://i.imgur.com/z1ZMjrG.png">
+   <img src="https://i.imgur.com/z1ZMjrG.png">
 
-    > Feel free to style different colors, however, layout should be similar.
-
+   > Feel free to style different colors, however, layout should be similar.
 
 ## Hints
 

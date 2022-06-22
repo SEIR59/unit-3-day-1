@@ -1,5 +1,7 @@
 <img src="https://i.imgur.com/pg98OTd.png">
 
+# Link to answer: https://codesandbox.io/s/mystifying-brattain-15u3x4
+
 # React Dev Skills Lab - Part 1
 
 ## Intro
@@ -28,13 +30,13 @@ Using the following component hierarchy:
 
 - The components are as follows:
 
-  | Component | Renders |
-  |---|---|
-  | `<App>` | <ul><li>`<h1>`</li><li>`<SkillList>`</li><li>`<hr>`</li><li>`<NewSkillForm>`</li></ul> |
-  | `<SkillList>` | <ul><li>`<ul>`</li><li>`<SkillListItem>` x 3</li></ul> |
-  | `<SkillListItem>` | <ul><li>`<li>` with "SkillListItem" as its content</li></ul> |
-  | `<NewSkillForm>` | <ul><li>`<form>`</li></ul> |
-  | `<form>` in<br>`<NewSkillForm>`  | <ul><li>`<label>` with "Skill" and `<input>` as its content</li><li>`<label>` with "Level" and `<select>` as its content</li><li>`<button>` with "ADD SKILL" as its content</li></ul> |
-  | `<select>` in<br>`<form>` above | <ul><li>`<option>` x 5 with content of "1" thru "5"`</li></ul> |
+  | Component                       | Renders                                                                                                                                                                               |
+  | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | `<App>`                         | <ul><li>`<h1>`</li><li>`<SkillList>`</li><li>`<hr>`</li><li>`<NewSkillForm>`</li></ul>                                                                                                |
+  | `<SkillList>`                   | <ul><li>`<ul>`</li><li>`<SkillListItem>` x 3</li></ul>                                                                                                                                |
+  | `<SkillListItem>`               | <ul><li>`<li>` with "SkillListItem" as its content</li></ul>                                                                                                                          |
+  | `<NewSkillForm>`                | <ul><li>`<form>`</li></ul>                                                                                                                                                            |
+  | `<form>` in<br>`<NewSkillForm>` | <ul><li>`<label>` with "Skill" and `<input>` as its content</li><li>`<label>` with "Level" and `<select>` as its content</li><li>`<button>` with "ADD SKILL" as its content</li></ul> |
+  | `<select>` in<br>`<form>` above | <ul><li>`<option>` x 5 with content of "1" thru "5"`</li></ul>                                                                                                                        |
 
 ## This lab combined with Parts 2, 3 & 4 is a deliverable.
