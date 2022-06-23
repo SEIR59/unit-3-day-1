@@ -2,6 +2,10 @@
 
 # React Dev Skills Lab - Part 1
 
+## MILES COMPLETED CODE ASSIGNMENT URL:
+
+https://codesandbox.io/s/miles-intro-react-hw1-enmwy9
+
 ## Intro
 
 Now that you've learned a bit about components in React, let's practice defining and rendering a few more.
