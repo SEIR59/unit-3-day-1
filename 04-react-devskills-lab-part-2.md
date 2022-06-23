@@ -2,6 +2,10 @@
 
 # React Dev Skills Lab - Part 2
 
+## MILES COMPLETED CODE ASSIGNMENT URL:
+
+https://codesandbox.io/s/miles-intro-react-hw1-pt2-5fbpqe
+
 ## Intro
 
 Now that you know quite a bit about JSX, props and how to style React Elements, time to apply your new knowledge by continuing to build the React Dev Skills app.
