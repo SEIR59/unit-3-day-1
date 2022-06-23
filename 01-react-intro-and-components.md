@@ -272,6 +272,10 @@ Modules should be named the same as the component, i.e., using UpperCamelCasing.
 Prior to React version 17+, we used to have to import React at the top of every component module like this:
 
 ```js
+My link: https://codesandbox.io/s/react-dev-skills-all-parts-ui03ym?file=/src/NewSkillForm.jsx
+
+
+
 import React from 'react';
 ```
 
